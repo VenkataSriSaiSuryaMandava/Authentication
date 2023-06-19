@@ -14,7 +14,7 @@ app.use(cors({
 }));
 
 //connect mongobd
-mongoose.connect('mongodb+srv://Saisurya:Saisurya@cluster0.y4lnua3.mongodb.net/?retryWrites=true&w=majority').then(
+mongoose.connect('Your_URI').then(
     console.log("Db is connected")
 );
 
